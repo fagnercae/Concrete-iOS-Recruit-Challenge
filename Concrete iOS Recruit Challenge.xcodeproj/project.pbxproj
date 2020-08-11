@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		765337414F5AEF87DDB3D73A /* Pods_Concrete_iOS_Recruit_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20017C56240DE74C8550A0B4 /* Pods_Concrete_iOS_Recruit_Challenge.framework */; };
+		7D4F111524E1823C0023243D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4F111424E1823C0023243D /* AppDelegate.swift */; };
+		7D4F111724E1823C0023243D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4F111624E1823C0023243D /* SceneDelegate.swift */; };
+		7D4F111C24E1823C0023243D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D4F111A24E1823C0023243D /* Main.storyboard */; };
+		7D4F111F24E1823C0023243D /* Concrete_iOS_Recruit_Challenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7D4F111D24E1823C0023243D /* Concrete_iOS_Recruit_Challenge.xcdatamodeld */; };
+		7D4F112124E1823D0023243D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D4F112024E1823D0023243D /* Assets.xcassets */; };
+		7D4F112424E1823D0023243D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D4F112224E1823D0023243D /* LaunchScreen.storyboard */; };
+		7D4F112D24E1895D0023243D /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4F112C24E1895D0023243D /* HomeScreenViewController.swift */; };
+		7D4F113024E18E970023243D /* MoviesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4F112F24E18E970023243D /* MoviesCollectionViewCell.swift */; };
+		7D4F113324E1CB990023243D /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4F113224E1CB990023243D /* Connection.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20017C56240DE74C8550A0B4 /* Pods_Concrete_iOS_Recruit_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Concrete_iOS_Recruit_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6386F218F06B5319E2C7A1ED /* Pods-Concrete iOS Recruit Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Concrete iOS Recruit Challenge.release.xcconfig"; path = "Target Support Files/Pods-Concrete iOS Recruit Challenge/Pods-Concrete iOS Recruit Challenge.release.xcconfig"; sourceTree = "<group>"; };
+		7D4F111124E1823C0023243D /* Concrete iOS Recruit Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Concrete iOS Recruit Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D4F111424E1823C0023243D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D4F111624E1823C0023243D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7D4F111B24E1823C0023243D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D4F111E24E1823C0023243D /* Concrete_iOS_Recruit_Challenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Concrete_iOS_Recruit_Challenge.xcdatamodel; sourceTree = "<group>"; };
+		7D4F112024E1823D0023243D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D4F112324E1823D0023243D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D4F112524E1823D0023243D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D4F112C24E1895D0023243D /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		7D4F112F24E18E970023243D /* MoviesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesCollectionViewCell.swift; sourceTree = "<group>"; };
+		7D4F113224E1CB990023243D /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		DA462C85F31AF93C9A2E0353 /* Pods-Concrete iOS Recruit Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Concrete iOS Recruit Challenge.debug.xcconfig"; path = "Target Support Files/Pods-Concrete iOS Recruit Challenge/Pods-Concrete iOS Recruit Challenge.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D4F110E24E1823C0023243D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				765337414F5AEF87DDB3D73A /* Pods_Concrete_iOS_Recruit_Challenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69B5EE967BB8B645F7C94819 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DA462C85F31AF93C9A2E0353 /* Pods-Concrete iOS Recruit Challenge.debug.xcconfig */,
+				6386F218F06B5319E2C7A1ED /* Pods-Concrete iOS Recruit Challenge.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7D4F110824E1823C0023243D = {
+			isa = PBXGroup;
+			children = (
+				7D4F111324E1823C0023243D /* Concrete iOS Recruit Challenge */,
+				7D4F111224E1823C0023243D /* Products */,
+				69B5EE967BB8B645F7C94819 /* Pods */,
+				9F49B3F0B0EA4D3BF184C987 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7D4F111224E1823C0023243D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D4F111124E1823C0023243D /* Concrete iOS Recruit Challenge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D4F111324E1823C0023243D /* Concrete iOS Recruit Challenge */ = {
+			isa = PBXGroup;
+			children = (
+				7D4F113124E1CB7E0023243D /* Methods */,
+				7D4F112E24E18E760023243D /* View */,
+				7D4F112B24E189310023243D /* Controllers */,
+				7D4F111424E1823C0023243D /* AppDelegate.swift */,
+				7D4F111624E1823C0023243D /* SceneDelegate.swift */,
+				7D4F111A24E1823C0023243D /* Main.storyboard */,
+				7D4F112024E1823D0023243D /* Assets.xcassets */,
+				7D4F112224E1823D0023243D /* LaunchScreen.storyboard */,
+				7D4F112524E1823D0023243D /* Info.plist */,
+				7D4F111D24E1823C0023243D /* Concrete_iOS_Recruit_Challenge.xcdatamodeld */,
+			);
+			path = "Concrete iOS Recruit Challenge";
+			sourceTree = "<group>";
+		};
+		7D4F112B24E189310023243D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7D4F112C24E1895D0023243D /* HomeScreenViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7D4F112E24E18E760023243D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7D4F112F24E18E970023243D /* MoviesCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7D4F113124E1CB7E0023243D /* Methods */ = {
+			isa = PBXGroup;
+			children = (
+				7D4F113224E1CB990023243D /* Connection.swift */,
+			);
+			path = Methods;
+			sourceTree = "<group>";
+		};
+		9F49B3F0B0EA4D3BF184C987 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20017C56240DE74C8550A0B4 /* Pods_Concrete_iOS_Recruit_Challenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D4F111024E1823C0023243D /* Concrete iOS Recruit Challenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D4F112824E1823D0023243D /* Build configuration list for PBXNativeTarget "Concrete iOS Recruit Challenge" */;
+			buildPhases = (
+				C73266F7EF44F8CD195A3956 /* [CP] Check Pods Manifest.lock */,
+				7D4F110D24E1823C0023243D /* Sources */,
+				7D4F110E24E1823C0023243D /* Frameworks */,
+				7D4F110F24E1823C0023243D /* Resources */,
+				04AD72FDA3CDC43C8FE43568 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Concrete iOS Recruit Challenge";
+			productName = "Concrete iOS Recruit Challenge";
+			productReference = 7D4F111124E1823C0023243D /* Concrete iOS Recruit Challenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D4F110924E1823C0023243D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					7D4F111024E1823C0023243D = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 7D4F110C24E1823C0023243D /* Build configuration list for PBXProject "Concrete iOS Recruit Challenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D4F110824E1823C0023243D;
+			productRefGroup = 7D4F111224E1823C0023243D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D4F111024E1823C0023243D /* Concrete iOS Recruit Challenge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D4F110F24E1823C0023243D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4F112424E1823D0023243D /* LaunchScreen.storyboard in Resources */,
+				7D4F112124E1823D0023243D /* Assets.xcassets in Resources */,
+				7D4F111C24E1823C0023243D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04AD72FDA3CDC43C8FE43568 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Concrete iOS Recruit Challenge/Pods-Concrete iOS Recruit Challenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Concrete iOS Recruit Challenge/Pods-Concrete iOS Recruit Challenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Concrete iOS Recruit Challenge/Pods-Concrete iOS Recruit Challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C73266F7EF44F8CD195A3956 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Concrete iOS Recruit Challenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D4F110D24E1823C0023243D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D4F111524E1823C0023243D /* AppDelegate.swift in Sources */,
+				7D4F113324E1CB990023243D /* Connection.swift in Sources */,
+				7D4F112D24E1895D0023243D /* HomeScreenViewController.swift in Sources */,
+				7D4F111724E1823C0023243D /* SceneDelegate.swift in Sources */,
+				7D4F111F24E1823C0023243D /* Concrete_iOS_Recruit_Challenge.xcdatamodeld in Sources */,
+				7D4F113024E18E970023243D /* MoviesCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D4F111A24E1823C0023243D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D4F111B24E1823C0023243D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D4F112224E1823D0023243D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D4F112324E1823D0023243D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D4F112624E1823D0023243D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D4F112724E1823D0023243D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D4F112924E1823D0023243D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA462C85F31AF93C9A2E0353 /* Pods-Concrete iOS Recruit Challenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZQNPYS9F35;
+				INFOPLIST_FILE = "Concrete iOS Recruit Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.caetanoapp.Concrete-iOS-Recruit-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D4F112A24E1823D0023243D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6386F218F06B5319E2C7A1ED /* Pods-Concrete iOS Recruit Challenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZQNPYS9F35;
+				INFOPLIST_FILE = "Concrete iOS Recruit Challenge/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.caetanoapp.Concrete-iOS-Recruit-Challenge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D4F110C24E1823C0023243D /* Build configuration list for PBXProject "Concrete iOS Recruit Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4F112624E1823D0023243D /* Debug */,
+				7D4F112724E1823D0023243D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D4F112824E1823D0023243D /* Build configuration list for PBXNativeTarget "Concrete iOS Recruit Challenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4F112924E1823D0023243D /* Debug */,
+				7D4F112A24E1823D0023243D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7D4F111D24E1823C0023243D /* Concrete_iOS_Recruit_Challenge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7D4F111E24E1823C0023243D /* Concrete_iOS_Recruit_Challenge.xcdatamodel */,
+			);
+			currentVersion = 7D4F111E24E1823C0023243D /* Concrete_iOS_Recruit_Challenge.xcdatamodel */;
+			path = Concrete_iOS_Recruit_Challenge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7D4F110924E1823C0023243D /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_Concrete_iOS_Recruit_Challenge {
+  umbrella header "Pods-Concrete iOS Recruit Challenge-umbrella.h"
+
+  export *
+  module * { export * }
+}
